@@ -33,7 +33,6 @@ body {
   background-color: skyblue;
   border: none;
   padding: 0.8rem;
-  opcaity: none;
   font-family: "Roboto Mono", monospace, sans-serif;
   font-size: 1rem;
 }
@@ -49,19 +48,21 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  html { font-size: 0.8rem;
+
+  }
   body {
     background-image: url(makeAWishBG.jpg);
     background-size: 600%;
-    background-position: ;
     background-repeat: no-repeat;
   }
 
   .container {
     border: 1px solid;
     border-radius: 1rem;
-    padding: 1rem 1rem;
+    padding: 1rem auto;
     text-align: center;
-    width: 325px;
+    width: 300px;
     height: 250px;
     background-color: gainsboro;
   }
@@ -71,7 +72,6 @@ body {
   body {
     background-image: url(makeAWishBG.jpg);
     background-size: 500%;
-    background-position: ;
     background-repeat: no-repeat;
   }
 
