@@ -1,0 +1,88 @@
+html {
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  color: black;
+  margin-top: 1em;
+}
+
+body {
+  background-image: url(makeAWishBG.jpg);
+  background-size: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5rem 5rem;
+  margin: 0 auto;
+}
+
+.container {
+  border: 1px solid;
+  border-radius: 3rem;
+  margin: 0 auto;
+  padding: 1rem auto;
+  text-align: center;
+  width: 600px;
+  height: 200px;
+  background-color: gainsboro;
+}
+
+#button {
+  border-radius: 10px;
+  background-color: skyblue;
+  border: none;
+  padding: 0.8rem;
+  opcaity: none;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 1rem;
+}
+
+#button:hover {
+  color: black;
+  opacity: 80%;
+}
+
+#button:active {
+  background-color: lightblue;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url(makeAWishBG.jpg);
+    background-size: 600%;
+    background-position: ;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    border: 1px solid;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    width: 325px;
+    height: 250px;
+    background-color: gainsboro;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1300px) {
+  body {
+    background-image: url(makeAWishBG.jpg);
+    background-size: 500%;
+    background-position: ;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    border: 1px solid;
+    border-radius: 1rem;
+    margin: auto;
+    padding: 1rem 1rem;
+    text-align: center;
+    width: 325px;
+    height: 250px;
+    background-color: gainsboro;
+  }
+}
